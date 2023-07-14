@@ -1,26 +1,25 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Determines if a number is positive , negative or zero.
+ * main - Detremines if a number is positive , negative or zero.
  *
- * Return : Always 0 (Success)
+ * Return : Alaways 0 (Success)
  */
-int main(void)
-{
-	int n:
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2:
-	if (n>0)
-{           
-                 print ("%d is positive\n" , n):
-} 
-else if ( n ==0) 
-{           
-                print ("%d is negative\n". n):
+int main() {
+    srand(time(0));  // Initialize random seed
+
+    int n = rand() % 201 - 100;  // Generate random number between -100 and 100
+
+    printf("The number: %d\n", n);
+
+    if (n > 0) {
+        printf("is positive\n");
+    } else if (n == 0) {
+        printf("is zero\n");
+    } else {
+        printf("is negative\n");
+    }
+
+    return 0;
 }
-else 
-{ 
-          print ("%d is negative\n" .n):
-}
-return (0):
