@@ -1,12 +1,2 @@
-#include <stdio.h>
-/** main - generates the assembly code intel syntax of a c code
-*
-*/
-
-	int main(void)
-
-{
-
-	return (0)
-
-}
+#!/bin/bash
+gcc -S -masm=intel $CFILE
