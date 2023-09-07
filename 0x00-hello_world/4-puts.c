@@ -1,4 +1,3 @@
-#!/bin/bash
 /* I am Kamau. this script should put 'programming is like building a multilingual puzzle'
  *
  * */
