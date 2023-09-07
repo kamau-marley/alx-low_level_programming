@@ -1,0 +1,12 @@
+#include <stdio.h>
+/** main - generates the assembly code intel syntax of a c code
+*
+*/
+
+	int main(void)
+
+{
+
+	return (0)
+
+}
