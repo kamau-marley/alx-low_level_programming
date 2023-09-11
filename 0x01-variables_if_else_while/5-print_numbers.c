@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-/* This program prints all numbers
- *to base ten starting from zero followed by a new line.
+/* main - prints all numbers
+ *
+ * to base ten starting from zero followed by a new line.
  * Returns (0)
  *
  */
