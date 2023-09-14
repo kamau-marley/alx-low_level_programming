@@ -1,18 +1,20 @@
-#include"main.h"
+#include "main.h"
 
-/** main - prints the alpphabet in lowecase 
- * follwed by a new line
- *
- * returns (0)
- *
+/**
+ * print_alphabet - Entry point
+ * Return:0
  */
+
 void print_alphabet(void)
-
 {
-	char letter;
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
+	char c = 'a';
 
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+
+	}
 	_putchar('\n');
 
 }
