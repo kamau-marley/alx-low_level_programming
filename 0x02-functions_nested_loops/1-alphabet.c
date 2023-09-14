@@ -4,6 +4,7 @@
  * follwed by a new line
  *
  * returns (0)
+ *
  */
 void print_alphabet(void)
 
